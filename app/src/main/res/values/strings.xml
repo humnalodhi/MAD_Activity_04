@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MAD_Activity_04</string>
+    <string name="fast_food_items" />
+    <string name="fast_food_item">Fast Food Items</string>
+</resources>

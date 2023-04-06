@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MainActivity">
+
+    <LinearLayout
+        android:id="@+id/buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="@string/fast_food_item"
+            android:textSize="32dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:onClick="showToast1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_1"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:onClick="showToast1"
+                android:src="@drawable/burger">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="cursive"
+                android:text="A burger is a flat round mass of minced meat or vegetables, which is fried and often eaten in a bread roll."
+                android:textSize="20dp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:onClick="showToast2"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_2"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:onClick="showToast2"
+                android:src="@drawable/pizza"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="cursive"
+                android:text="A delicious pizza has an intensely cheesy flavor. The combination of tomato sauce and cheese creates a perfect marriage of flavor. "
+                android:textSize="20dp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:onClick="showToast3"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_3"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:onClick="showToast3"
+                android:src="@drawable/sandwich"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="cursive"
+                android:text="A sandwich is a food typically consisting of vegetables, sliced cheese or meat, placed on or between slices of bread."
+                android:textSize="20dp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:onClick="showToast5"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_5"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:onClick="showToast5"
+                android:src="@drawable/chicken_crackers"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="cursive"
+                android:text="Chicken in a Biscuit Crackers are made with cooked chicken for natural flavor. Serve with your favorite dips."
+                android:textSize="20dp">
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
