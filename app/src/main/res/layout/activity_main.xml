@@ -32,14 +32,14 @@
             android:onClick="showToast1"
             android:orientation="horizontal">
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/image_1"
                 android:layout_width="150dp"
                 android:layout_height="120dp"
                 android:onClick="showToast1"
                 android:src="@drawable/burger">
 
-            </ImageView>
+            </de.hdodenhof.circleimageview.CircleImageView>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -60,7 +60,7 @@
             android:onClick="showToast2"
             android:orientation="horizontal">
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/image_2"
                 android:layout_width="150dp"
                 android:layout_height="120dp"
@@ -86,7 +86,7 @@
             android:onClick="showToast3"
             android:orientation="horizontal">
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/image_3"
                 android:layout_width="150dp"
                 android:layout_height="120dp"
@@ -112,7 +112,7 @@
             android:onClick="showToast5"
             android:orientation="horizontal">
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/image_5"
                 android:layout_width="150dp"
                 android:layout_height="120dp"
